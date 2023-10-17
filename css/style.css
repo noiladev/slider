@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+.wrapper {
+    width: 700px;
+    overflow: hidden;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 2800px;
+    border: 2.8px solid rgb(33, 224, 151);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    transition: all ease 0.9s;
+    /* transform: translateX(-700px);  bu ish javascriptda amalga oshiriladi */
+}
+
+.l__item {
+    width: 700px;
+    height: 350px;
+}
+
+.imgs {
+    height: 600px;
+    width: 700px;
+}
+
+.dc {
+    border: 3.5px solid rgb(42, 45, 235);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.pdp {
+    border: 3.5px solid rgb(23, 194, 37);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.nt {
+    border: 3.5px solid rgb(160, 96, 13);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.tatu {
+    border: 3.5px solid rgb(238, 30, 30);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 12px 0; */
+    margin-top: -300px;
+    position: fixed;
+}
+.btns button {
+    width: 130px;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 12px;
+}
+
+.next {
+    background-color: rgba(21, 17, 235, 0.836);
+    margin-left: 755px;
+}
+
+.prev {
+    background-color: #66CDAA;
+    margin-left: -160px;
+}
